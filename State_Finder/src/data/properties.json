@@ -1,0 +1,203 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior throughout.",
+      "longDescription": "This charming semi-detached house offers excellent family living space in a sought-after location. The ground floor features a spacious entrance hall, two reception rooms perfect for entertaining, and a modern fitted kitchen with breakfast area leading to a delightful conservatory overlooking the garden. A utility room and cloakroom complete the ground floor. Upstairs you'll find three well-proportioned bedrooms and a family bathroom with separate WC. The property benefits from gas central heating, double glazing throughout, and a well-maintained garden. Located close to excellent schools, shops, and transport links.",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "postcode": "BR5",
+      "picture": "/images/prop1(pic1).png",
+      "images": [
+        "/images/prop1(pic1).png",
+        "/images/prop1(pic2).png",
+        "/images/prop1(pic3).png",
+        "/images/prop1(pic4).png",
+        "/images/prop1(pic5).png",
+        "/images/prop1(pic6).png",
+        "/images/prop1(pic7).png",
+        "/images/prop1(pic8).png"
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+1",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Leasehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher and a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite with shower attachment over the bath. There is also a separate wet room.",
+      "longDescription": "This stunning ground floor apartment offers contemporary living at its finest. The spacious open-plan kitchen and living area features solid wood flooring, integrated appliances, and bi-folding doors leading to a private courtyard garden - perfect for alfresco dining. Two generous double bedrooms provide ample space, while the modern family bathroom and separate wet room offer convenience and luxury. Being only five years old, the property remains under a 10-year building guarantee. Walnut doors throughout and wiring for Sky TV/aerial points in all main rooms complete this exceptional home.",
+      "location": "Crofton Road, Orpington BR6",
+      "postcode": "BR6",
+      "picture": "/images/prop2(pic1).png",
+      "images": [
+        "/images/prop2(pic1).png",
+        "/images/prop2(pic2).png",
+        "/images/prop2(pic3).png",
+        "/images/prop2(pic4).png",
+        "/images/prop2(pic5).png",
+        "/images/prop2(pic6).png",
+        "/images/prop2(pic7).png",
+        "/images/prop2(pic8).png"
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/764ba2/ffffff?text=Floor+Plan+2",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 950000,
+      "tenure": "Freehold",
+      "description": "Stunning four bedroom detached property with modern interior and spacious garden. Features include master bedroom with en-suite, fitted kitchen with island, separate dining room, and double garage. Located in a quiet residential area with excellent schools nearby. Perfect for families seeking space and comfort.",
+      "longDescription": "This impressive detached family home offers over 2000 sq ft of beautifully presented accommodation. The ground floor comprises a spacious entrance hall, study, cloakroom, living room with feature fireplace, separate dining room, and stunning kitchen/breakfast room with central island and bi-fold doors to the garden. Upstairs, the master bedroom suite includes fitted wardrobes and a luxury en-suite, complemented by three further double bedrooms and a family bathroom. Outside, enjoy a landscaped rear garden and double garage with electric door.",
+      "location": "High Street, Bromley BR1",
+      "postcode": "BR1",
+      "picture": "https://via.placeholder.com/400x300/667eea/ffffff?text=4+Bed+House",
+      "images": [
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=House+Exterior",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Grand+Entrance",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=Luxury+Kitchen",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Master+Suite",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=Dining+Room",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Garden+View",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=Double+Garage",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=En-Suite"
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+3",
+      "added": {
+        "month": "November",
+        "day": 5,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Leasehold",
+      "description": "Modern one bedroom apartment in the heart of the city. Perfect for first-time buyers or investors. Features open plan living area, modern bathroom, and allocated parking space. Close to transport links and local amenities. Ideal investment opportunity with strong rental demand.",
+      "longDescription": "This contemporary one-bedroom apartment is perfectly positioned for modern city living. The open-plan living area maximizes space and natural light, with a sleek kitchen area featuring integrated appliances. The bedroom offers ample storage, while the modern bathroom includes a shower over bath. Benefits include double glazing, electric heating, allocated parking, and a communal garden. Located just minutes from the station with direct trains to central London, and surrounded by shops, restaurants, and entertainment venues. Perfect for professionals or investors.",
+      "location": "Camden Road, London NW1",
+      "postcode": "NW1",
+      "picture": "https://via.placeholder.com/400x300/764ba2/ffffff?text=1+Bed+Flat",
+      "images": [
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Building+Exterior",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=Living+Space",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Kitchen+Area",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=Bedroom",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Modern+Bathroom",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=City+View",
+        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Parking+Space",
+        "https://via.placeholder.com/800x600/667eea/ffffff?text=Communal+Garden"
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/764ba2/ffffff?text=Floor+Plan+4",
+      "added": {
+        "month": "December",
+        "day": 1,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1250000,
+      "tenure": "Freehold",
+      "description": "Luxurious five bedroom family home with stunning features throughout. Large reception rooms, modern kitchen/diner, master suite with dressing room and en-suite. Beautiful landscaped garden with patio area. Perfect for entertaining. Highly sought-after location close to excellent schools.",
+      "longDescription": "This exceptional five-bedroom executive home offers luxurious family living in one of the area's most prestigious locations. The ground floor boasts a magnificent entrance hall, study, cloakroom, two reception rooms, and a superb kitchen/breakfast/family room with bi-fold doors to the garden. The first floor features a master bedroom suite with dressing area and en-suite bathroom, four further bedrooms (one with en-suite), and a family bathroom. Outside, the south-facing landscaped garden includes a large patio, lawn area, and summer house. Additional features include underfloor heating, integrated sound system, and a double garage.",
+      "location": "Greenwich Park, London SE10",
+      "postcode": "SE10",
+      "picture": "/images/prop5(pic1).png",
+      "images": [
+
+        "/images/prop5(pic1).png",
+        "/images/prop5(pic2).png",
+        "/images/prop5(pic3).png",
+        "/images/prop5(pic4).png",
+        "/images/prop5(pic5).png",
+        "/images/prop5(pic6).png",
+        "/images/prop5(pic7).png",
+        "/images/prop5(pic8).png"
+
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+5",
+      "added": {
+        "month": "January",
+        "day": 15,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 525000,
+      "tenure": "Leasehold",
+      "description": "Spacious three bedroom apartment with balcony and parking. Modern throughout with fitted kitchen, two bathrooms, and generous living space. Excellent transport links and within walking distance of shops and restaurants. Ideal family apartment in popular development.",
+      "longDescription": "This impressive three-bedroom apartment spans approximately 1,100 sq ft and is presented in excellent condition throughout. The accommodation comprises a bright entrance hall, spacious living/dining room with access to a private balcony, modern fitted kitchen with integrated appliances, master bedroom with en-suite shower room, two further bedrooms, and a family bathroom. Additional benefits include gas central heating, double glazing, allocated parking, and lift access. The development is well-maintained with communal gardens and is ideally located within walking distance of the station, shops, and local amenities.",
+      "location": "Station Road, Orpington BR5",
+      "postcode": "BR5",
+      "picture": "/images/prop6(pic1).png",
+      "images": [
+        "/images/prop6(pic1).png",
+        "/images/prop6(pic2).png",
+        "/images/prop6(pic3).png",
+        "/images/prop6(pic4).png",
+        "/images/prop6(pic5).png",
+        "/images/prop6(pic6).png",
+        "/images/prop6(pic7).png",
+        "/images/prop6(pic8).png"
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/764ba2/ffffff?text=Floor+Plan+6",
+      "added": {
+        "month": "February",
+        "day": 20,
+        "year": 2023
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 485000,
+      "tenure": "Freehold",
+      "description": "Charming two bedroom cottage with character features. Exposed beams, open fireplace, and cottage garden. Ideal for couples or small families. Recently renovated while maintaining original features. Quiet village location with good transport links.",
+      "longDescription": "This delightful period cottage seamlessly blends traditional charm with modern convenience. The ground floor features a cozy living room with exposed beams and inglenook fireplace, dining area, and a refitted kitchen with stable door to the garden. Upstairs offers two comfortable bedrooms and a modern bathroom. The property has been thoughtfully updated to include gas central heating and new wiring, while preserving character features such as original wooden floors and latched doors. The rear garden is a particular highlight, offering a peaceful retreat with patio, lawn, and mature borders. Located in a sought-after village with local shops and regular bus services.",
+      "location": "Village Lane, Chislehurst BR7",
+      "postcode": "BR7",
+      "picture": "/images/prop7(pic1).png",
+      "images": [
+        "/images/prop7(pic1).png",
+        "/images/prop7(pic2).png",
+        "/images/prop7(pic3).png",
+        "/images/prop7(pic4).png",
+        "/images/prop7(pic5).png",
+        "/images/prop7(pic6).png",
+        "/images/prop7(pic7).png",
+        "/images/prop7(pic8).png"
+
+      ],
+      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+7",
+      "added": {
+        "month": "March",
+        "day": 10,
+        "year": 2023
+      }
+    }
+  ]
+}
