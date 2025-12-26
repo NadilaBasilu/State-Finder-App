@@ -658,6 +658,7 @@ header h1 {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -707,9 +708,12 @@ header h1 {
     margin-right: 0.5rem;
 }
 
+.floor-plan {
+    width: 100%;
+}
+
 .floor-plan img {
     width: 100%;
-    max-width: 800px;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -723,11 +727,17 @@ header h1 {
     font-style: italic;
 }
 
+.map {
+    width: 100%;
+}
+
 .map-container {
     position: relative;
+    width: 100%;
 }
 
 .map iframe {
+    width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: none;
@@ -886,6 +896,7 @@ a:focus {
    ======================================== */
 
 @media print {
+
     .favorites-list,
     .search-form,
     .btn {
