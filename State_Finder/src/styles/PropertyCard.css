@@ -1,0 +1,163 @@
+/* ========================================
+   PROPERTY CARD STYLES (WITH DRAG & DROP) - FIXED
+   ======================================== */
+
+.property-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-card:active {
+    cursor: grabbing;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* FIXED: Property card images with aspect ratio */
+.property-image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+/* Fallback for older browsers */
+@supports not (aspect-ratio: 3 / 2) {
+    .property-image {
+        height: 300px;
+    }
+}
+
+.property-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.property-card:hover .property-image img {
+    transform: scale(1.05);
+}
+
+.property-type-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(102, 126, 234, 0.95);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    z-index: 10;
+}
+
+.property-info {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.property-price {
+    color: #667eea;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.property-bedrooms {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.property-location {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.property-description {
+    color: #777;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.property-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+.btn-view {
+    flex: 2;
+    background-color: #667eea;
+    color: white;
+    padding: 0.75rem;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-view:hover {
+    background-color: #5568d3;
+    transform: translateY(-2px);
+}
+
+.btn-favorite {
+    flex: 1;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-favorite:hover {
+    background-color: #ee5a52;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+   ======================================== */
+
+@media (max-width: 767px) {
+    .property-price {
+        font-size: 1.5rem;
+    }
+
+    /* FIXED: Mobile property cards */
+    .property-image {
+        aspect-ratio: 4 / 3;
+    }
+
+    @supports not (aspect-ratio: 4 / 3) {
+        .property-image {
+            height: 250px;
+        }
+    }
+}

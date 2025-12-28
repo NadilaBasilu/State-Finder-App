@@ -2,7 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDrag } from 'react-dnd';
 import { encodeHTML } from '../utils/security';
-import '../styles/App.css';
+import '../styles/ImageGallery.css'
+
+import '../styles/PropertyCard.css';
+
 
 /**
  * PropertyCard Component
