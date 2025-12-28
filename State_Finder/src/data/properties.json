@@ -21,7 +21,7 @@
         "/images/prop1(pic7).png",
         "/images/prop1(pic8).png"
       ],
-      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+1",
+      "floorPlan": "/images/prop1(pic9).png",
       "added": {
         "month": "October",
         "day": 12,
@@ -49,7 +49,7 @@
         "/images/prop2(pic7).png",
         "/images/prop2(pic8).png"
       ],
-      "floorPlan": "https://via.placeholder.com/600x800/764ba2/ffffff?text=Floor+Plan+2",
+      "floorPlan": "/images/prop2(pic9).png",
       "added": {
         "month": "September",
         "day": 14,
@@ -66,18 +66,18 @@
       "longDescription": "This impressive detached family home offers over 2000 sq ft of beautifully presented accommodation. The ground floor comprises a spacious entrance hall, study, cloakroom, living room with feature fireplace, separate dining room, and stunning kitchen/breakfast room with central island and bi-fold doors to the garden. Upstairs, the master bedroom suite includes fitted wardrobes and a luxury en-suite, complemented by three further double bedrooms and a family bathroom. Outside, enjoy a landscaped rear garden and double garage with electric door.",
       "location": "High Street, Bromley BR1",
       "postcode": "BR1",
-      "picture": "https://via.placeholder.com/400x300/667eea/ffffff?text=4+Bed+House",
+      "picture": "/images/prop3(pic1).png",
       "images": [
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=House+Exterior",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Grand+Entrance",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=Luxury+Kitchen",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Master+Suite",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=Dining+Room",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Garden+View",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=Double+Garage",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=En-Suite"
+        "/images/prop3(pic1).png",
+        "/images/prop3(pic2).png",
+        "/images/prop3(pic3).png",
+        "/images/prop3(pic4).png",
+        "/images/prop3(pic5).png",
+        "/images/prop3(pic6).png",
+        "/images/prop3(pic7).png",
+        "/images/prop3(pic8).png"
       ],
-      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+3",
+      "floorPlan": "/images/prop3(pic9).png",
       "added": {
         "month": "November",
         "day": 5,
@@ -94,16 +94,16 @@
       "longDescription": "This contemporary one-bedroom apartment is perfectly positioned for modern city living. The open-plan living area maximizes space and natural light, with a sleek kitchen area featuring integrated appliances. The bedroom offers ample storage, while the modern bathroom includes a shower over bath. Benefits include double glazing, electric heating, allocated parking, and a communal garden. Located just minutes from the station with direct trains to central London, and surrounded by shops, restaurants, and entertainment venues. Perfect for professionals or investors.",
       "location": "Camden Road, London NW1",
       "postcode": "NW1",
-      "picture": "https://via.placeholder.com/400x300/764ba2/ffffff?text=1+Bed+Flat",
+      "picture": "/images/prop4(pic1).png",
       "images": [
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Building+Exterior",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=Living+Space",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Kitchen+Area",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=Bedroom",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Modern+Bathroom",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=City+View",
-        "https://via.placeholder.com/800x600/764ba2/ffffff?text=Parking+Space",
-        "https://via.placeholder.com/800x600/667eea/ffffff?text=Communal+Garden"
+        "/images/prop4(pic1).png",
+        "/images/prop4(pic2).png",
+        "/images/prop4(pic3).png",
+        "/images/prop4(pic4).png",
+        "/images/prop4(pic5).png",
+        "/images/prop4(pic6).png",
+        "/images/prop4(pic7).png",
+        "/images/prop4(pic8).png"
       ],
       "floorPlan": "https://via.placeholder.com/600x800/764ba2/ffffff?text=Floor+Plan+4",
       "added": {
@@ -135,7 +135,7 @@
         "/images/prop5(pic8).png"
 
       ],
-      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+5",
+      "floorPlan": "/images/prop5(pic9).png",
       "added": {
         "month": "January",
         "day": 15,
@@ -192,7 +192,7 @@
         "/images/prop7(pic8).png"
 
       ],
-      "floorPlan": "https://via.placeholder.com/600x800/667eea/ffffff?text=Floor+Plan+7",
+      "floorPlan": "/images/prop7(pic9).png",
       "added": {
         "month": "March",
         "day": 10,
