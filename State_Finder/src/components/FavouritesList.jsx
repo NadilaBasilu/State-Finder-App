@@ -75,3 +75,4 @@ function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
 }
 
 export default FavoritesList;
+
