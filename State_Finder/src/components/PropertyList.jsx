@@ -1,6 +1,8 @@
 import React from 'react';
 import PropertyCard from './PropertyCard';
-import '../styles/App.css';
+
+import '../styles/ImageGallery.css'
+import '../styles/PropertyList.css';
 
 /**
  * PropertyList Component
