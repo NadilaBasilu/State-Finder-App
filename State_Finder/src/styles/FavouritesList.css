@@ -1,0 +1,146 @@
+/* ========================================
+   FAVORITES LIST STYLES (DROP ZONE)
+   ======================================== */
+
+.favorites-list {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    min-height: 300px;
+    transition: all 0.3s ease;
+}
+
+/* Drag over effect */
+.favorites-list.drag-over {
+    background-color: #f0f4ff;
+    border: 2px dashed #667eea;
+    box-shadow: 0 0 20px rgba(102, 126, 234, 0.3);
+}
+
+.favorites-list h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 0.5rem;
+}
+
+.clear-all-btn {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.clear-all-btn:hover {
+    background-color: #ee5a52;
+    transform: translateY(-1px);
+}
+
+.favorite-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.favorite-item:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
+}
+
+.favorite-item a {
+    text-decoration: none;
+}
+
+/* FIXED: Favorite item thumbnails with aspect ratio */
+.favorite-item img {
+    width: 90px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+    flex-shrink: 0;
+    display: block;
+}
+
+.favorite-info {
+    flex: 1;
+}
+
+.favorite-info p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+}
+
+.favorite-info p:first-child {
+    font-weight: 700;
+    color: #667eea;
+}
+
+.favorite-info .location-text {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.favorite-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.favorite-item button:hover {
+    background-color: #c82333;
+    transform: scale(1.1);
+}
+
+.empty-message {
+    text-align: center;
+    color: #999;
+    padding: 2rem 1rem;
+    font-style: italic;
+}
+
+/* ========================================
+   RESPONSIVE - DESKTOP
+   ======================================== */
+
+@media (min-width: 1024px) {
+    .favorites-list {
+        flex: 1;
+        max-width: 350px;
+        position: sticky;
+        top: 100px;
+    }
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+   ======================================== */
+
+@media (max-width: 767px) {
+    .favorites-list {
+        position: static;
+    }
+}

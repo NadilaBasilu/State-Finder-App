@@ -1,7 +1,8 @@
 import React from 'react';
 import { useDrop } from 'react-dnd';
 import { Link } from 'react-router-dom';
-import '../styles/App.css';
+
+import '../styles/FavouritesList.css';
 
 /**
  * FavoritesList Component
