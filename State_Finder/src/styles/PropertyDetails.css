@@ -1,0 +1,231 @@
+/* ========================================
+   PROPERTY DETAILS PAGE - FIXED
+   ======================================== */
+
+.property-details {
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+/* Property Header */
+.property-header {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    margin-bottom: 2rem;
+}
+
+.property-header h1 {
+    color: #667eea;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.property-type-info {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.property-location-detail {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.btn-add-favorite {
+    padding: 1rem 2rem;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-add-favorite:hover {
+    background-color: #ee5a52;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+/* ========================================
+   REACT TABS STYLING
+   ======================================== */
+
+.react-tabs {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+}
+
+.react-tabs__tab-list {
+    border-bottom: 2px solid #e0e0e0;
+    margin: 0 0 2rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    border: 2px solid transparent;
+    border-bottom: none;
+    bottom: -2px;
+    position: relative;
+    list-style: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    color: #666;
+}
+
+.react-tabs__tab:hover {
+    background-color: #e9ecef;
+    color: #667eea;
+}
+
+.react-tabs__tab--selected {
+    background-color: white;
+    color: #667eea;
+    border-color: #667eea;
+    border-bottom-color: white;
+}
+
+.react-tabs__tab-panel {
+    display: none;
+}
+
+.react-tabs__tab-panel--selected {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tab Content */
+.description h2,
+.floor-plan h2,
+.map h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.description p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+}
+
+.description h3 {
+    color: #667eea;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #667eea;
+    border-radius: 4px;
+}
+
+.features-list li:before {
+    content: "✓ ";
+    color: #667eea;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.floor-plan {
+    width: 100%;
+}
+
+.floor-plan img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.floor-plan-note {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.map {
+    width: 100%;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.map-note {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 1rem;
+    border-radius: 4px;
+    color: #856404;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.map-note a {
+    color: #667eea;
+    text-decoration: underline;
+}
+
+/* ========================================
+   RESPONSIVE - MOBILE
+   ======================================== */
+
+@media (max-width: 767px) {
+    .property-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .react-tabs__tab {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+}

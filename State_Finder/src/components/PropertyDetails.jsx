@@ -3,7 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ImageGallery from './ImageGallery';
-import '../styles/App.css';
+import '../styles/ImageGallery.css'
+import '../styles/PropertyDetails.css';
 
 /**
  * PropertyDetails Component
