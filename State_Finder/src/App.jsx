@@ -7,6 +7,7 @@ import SearchForm from './components/SearchForm.jsx';
 import PropertyList from './components/PropertyList.jsx';
 import PropertyDetails from './components/PropertyDetails.jsx';
 import FavoritesList from './components/FavouritesList.jsx';
+import Footer from './components/Footer.jsx';
 import { searchProperties } from './utils/searchUtils.js';
 import './styles/App.css';
 
@@ -95,6 +96,9 @@ function App() {
                             />
                         } />
                     </Routes>
+
+                    {/* Footer Component */}
+                    <Footer />
                 </div>
             </BrowserRouter>
         </DndProvider>
