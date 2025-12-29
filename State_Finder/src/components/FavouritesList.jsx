@@ -12,7 +12,7 @@ import '../styles/FavouritesList.css';
 function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
 
     // Drop zone configuration for drag and drop
-    // ✅ FIXED: Added dependency array to prevent stale closures
+
     const [{ isOver }, drop] = useDrop(() => ({
         accept: 'PROPERTY',
         drop: (item) => {
@@ -24,7 +24,7 @@ function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
         collect: (monitor) => ({
             isOver: monitor.isOver()
         })
-    }), [onAddToFavorites]); // ✅ THIS WAS MISSING - Critical fix!
+    }), [onAddToFavorites]);
 
     return (
         <div
