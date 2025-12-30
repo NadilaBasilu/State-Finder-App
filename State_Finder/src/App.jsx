@@ -36,9 +36,7 @@ function App() {
 
         if (!exists) {
             setFavorites([...favorites, property]);
-            // Property added silently - no popup alert
         }
-        // If already exists, silently ignore - no popup alert
     };
 
     /**
@@ -69,22 +67,32 @@ function App() {
                     <Routes>
                         {/* Main Search Page */}
                         <Route path="/" element={
-                            <div className="main-layout">
-                                <div className="search-section">
+                            <div className="page-container">
+                                {/* Search Form - Full Width */}
+                                <div className="search-form-container">
                                     <SearchForm onSearch={handleSearch} />
-                                    <PropertyList
-                                        properties={searchResults}
-                                        onAddToFavorites={addToFavorites}
-                                    />
                                 </div>
 
-                                {/* Favorites Sidebar */}
-                                <FavoritesList
-                                    favorites={favorites}
-                                    onAddToFavorites={addToFavorites}
-                                    onRemove={removeFromFavorites}
-                                    onClearAll={clearFavorites}
-                                />
+                                {/* Property Cards + Favorites Side by Side */}
+                                <div className="content-layout">
+                                    {/* Property List - Left Side (Larger) */}
+                                    <div className="property-section">
+                                        <PropertyList
+                                            properties={searchResults}
+                                            onAddToFavorites={addToFavorites}
+                                        />
+                                    </div>
+
+                                    {/* Favorites - Right Side (Smaller) */}
+                                    <div className="favorites-section">
+                                        <FavoritesList
+                                            favorites={favorites}
+                                            onAddToFavorites={addToFavorites}
+                                            onRemove={removeFromFavorites}
+                                            onClearAll={clearFavorites}
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         } />
 

@@ -46,22 +46,41 @@ header h1 {
     margin: 0;
     padding: 0;
 }
+
 /* ========================================
-   MAIN LAYOUT - MOBILE FIRST
+   PAGE CONTAINER - NEW LAYOUT
    ======================================== */
 
-.main-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
+.page-container {
     width: 100%;
-    max-width: none;
+    max-width: 1600px;
     margin: 0 auto;
+    padding: 20px;
 }
 
-.search-section {
+/* Search Form - Full Width */
+.search-form-container {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Content Layout - Property Cards + Favorites */
+.content-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Property Section - Takes More Space */
+.property-section {
     flex: 1;
+    min-width: 0; /* Prevent flex overflow */
+}
+
+/* Favorites Section - Fixed Width on Right */
+.favorites-section {
+    width: 350px;
+    flex-shrink: 0;
 }
 
 /* ========================================
@@ -120,8 +139,8 @@ a:focus {
    ======================================== */
 
 @media print {
-    .favorites-list,
-    .search-form,
+    .favorites-section,
+    .search-form-container,
     .btn {
         display: none;
     }
@@ -132,21 +151,60 @@ a:focus {
 }
 
 /* ========================================
+   RESPONSIVE - TABLET
+   ======================================== */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .content-layout {
+        flex-direction: column;
+    }
+
+    .favorites-section {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+/* ========================================
    RESPONSIVE - DESKTOP
    ======================================== */
 
 @media (min-width: 1024px) {
-    .main-layout {
+    .content-layout {
         flex-direction: row;
-        align-items: flex-start;
     }
 
-    .search-section {
-        flex: 3;
+    .property-section {
+        flex: 1;
+    }
+
+    .favorites-section {
+        width: 350px;
+        position: sticky;
+        top: 180px; /* Stick below header */
+        max-height: calc(100vh - 200px);
+        overflow-y: auto;
     }
 
     header h1 {
-        font-size: 2.5rem;
+        font-size: 4rem;
+    }
+}
+
+/* ========================================
+   RESPONSIVE - LARGE DESKTOP
+   ======================================== */
+
+@media (min-width: 1440px) {
+    .page-container {
+        max-width: 1800px;
+    }
+
+    .favorites-section {
+        width: 400px;
     }
 }
 
@@ -156,14 +214,36 @@ a:focus {
 
 @media (max-width: 767px) {
     header {
-        padding: 1rem;
+        height: 6em;
     }
 
     header h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
-    .main-layout {
+    .page-container {
         padding: 10px;
     }
+
+    .search-form-container {
+        margin-bottom: 1rem;
+    }
+
+    .content-layout {
+        flex-direction: column;
+    }
+
+    .favorites-section {
+        width: 100%;
+        position: static;
+    }
+}
+
+/* ========================================
+   FAVORITES LIST STYLING ADJUSTMENTS
+   ======================================== */
+
+.favorites-section .favorites-list {
+    position: static;
+    max-width: 100%;
 }
