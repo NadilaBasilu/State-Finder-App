@@ -2,7 +2,7 @@
   "name": "state-finder",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://NadilaBasilu.github.io/State-Finder-App/",
+  "homepage": "https://NadilaBasilu.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
