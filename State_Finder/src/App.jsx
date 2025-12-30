@@ -63,7 +63,7 @@ function App() {
                 <div className="app">
                     {/* Header */}
                     <header>
-                        <h1>🏠 Property Search</h1>
+                        <h1>🏠 Property Vision</h1>
                     </header>
 
                     <Routes>
