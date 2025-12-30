@@ -1,5 +1,5 @@
 /* ========================================
-   PROPERTY CARD STYLES (WITH DRAG & DROP) - FIXED
+   PROPERTY CARD STYLES (WITH DRAG & DROP) - CLICKABLE
    ======================================== */
 
 .property-card {
@@ -8,18 +8,27 @@
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
     transition: all 0.3s ease;
-    cursor: grab;
+    cursor: pointer; /* Changed from grab to pointer */
     display: flex;
     flex-direction: column;
 }
 
+/* When dragging, show grab cursor */
 .property-card:active {
     cursor: grabbing;
 }
 
+/* Enhanced hover effect for clickable card */
 .property-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    cursor: pointer; /* Ensure pointer on hover */
+}
+
+/* Add subtle border on focus for accessibility */
+.property-card:focus {
+    outline: 3px solid #667eea;
+    outline-offset: 2px;
 }
 
 /* FIXED: Property card images with aspect ratio */
@@ -117,6 +126,7 @@
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
+    cursor: pointer; /* Ensure button cursor */
 }
 
 .btn-view:hover {
@@ -141,6 +151,12 @@
     transform: translateY(-2px);
 }
 
+/* Ensure buttons maintain their own hover effects */
+.property-card .btn-view:hover,
+.property-card .btn-favorite:hover {
+    transform: translateY(-2px) scale(1.02);
+}
+
 /* ========================================
    RESPONSIVE - MOBILE
    ======================================== */
@@ -159,5 +175,10 @@
         .property-image {
             height: 250px;
         }
+    }
+
+    /* Better tap targets on mobile */
+    .property-card {
+        cursor: pointer;
     }
 }
