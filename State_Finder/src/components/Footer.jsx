@@ -38,6 +38,7 @@ function Footer() {
                             </div>
                         </div>
 
+
                         {/* Quick Links */}
                         <div className="footer-column">
                             <h4>Quick Links</h4>
