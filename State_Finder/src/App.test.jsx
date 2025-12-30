@@ -6,8 +6,8 @@ describe('App', () => {
     it('renders the app header', () => {
         render(<App />)
 
-        // Use heading role to avoid duplicates
-        const headerElement = screen.getByRole('heading', { name: /Property Search/i, level: 1 })
+        // Changed to match actual header text "🏠 Property Vision"
+        const headerElement = screen.getByRole('heading', { name: /Property Vision/i, level: 1 })
         expect(headerElement).toBeInTheDocument()
     })
 

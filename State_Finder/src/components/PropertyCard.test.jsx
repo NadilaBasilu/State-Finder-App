@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { BrowserRouter } from 'react-router-dom'
 import { DndProvider } from 'react-dnd'
@@ -66,7 +66,8 @@ describe('PropertyCard', () => {
             />
         )
 
-        const favouriteButton = screen.getByRole('button', { name: /Favorite/i })
+        // Find the actual button element with title attribute
+        const favouriteButton = screen.getByTitle(/Add to favorites/i)
         await user.click(favouriteButton)
 
         expect(mockOnAddToFavorites).toHaveBeenCalledWith(mockProperty)
