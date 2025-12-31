@@ -132,18 +132,23 @@
 .btn-view:hover {
     background-color: #5568d3;
     transform: translateY(-2px);
+    color: white;
 }
 
+
 .btn-favorite {
-    flex: 1;
+    flex: 1.4; /* Increased from 1 to 1.4 to prevent cut-off */
     background-color: #ff6b6b;
     color: white;
-    padding: 0.75rem;
+    padding: 0.85rem 0.5rem; /* Adjusted padding */
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.3s ease;
     border: none;
     cursor: pointer;
+    font-size: 0.9rem;
+    overflow: hidden;
+    min-width: 105px; /* Ensure minimum width for "♥ Favorite" */
 }
 
 .btn-favorite:hover {
