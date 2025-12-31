@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import '../styles/SearchForm.css';
 
 /**
  * SearchForm Component
  * Provides form inputs for property search criteria with two-column layout
  */
-function SearchForm({ onSearch }) {
+function SearchForm({onSearch}) {
     const [criteria, setCriteria] = useState({
         type: 'any',
         minPrice: '',
@@ -21,7 +21,7 @@ function SearchForm({ onSearch }) {
      * Handle input changes
      */
     const handleChange = (e) => {
-        const { name, value } = e.target;
+        const {name, value} = e.target;
         setCriteria({
             ...criteria,
             [name]: value
