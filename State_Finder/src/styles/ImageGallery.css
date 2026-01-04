@@ -16,7 +16,7 @@
     overflow: hidden;
 }
 
-/* FIXED: Main image with proper aspect ratio */
+
 .main-image {
     width: 100%;
     height: auto;
@@ -176,7 +176,6 @@
    ======================================== */
 
 @media (max-width: 767px) {
-    /* FIXED: Mobile main image */
     .main-image {
         max-height: 400px;
     }
@@ -186,7 +185,7 @@
         gap: 8px;
     }
 
-    /* Smaller arrows on mobile */
+
     .nav-arrow {
         width: 40px;
         height: 40px;
@@ -231,11 +230,6 @@
     }
 }
 
-/* ========================================
-   HIDE ARROWS ON TOUCH DEVICES (OPTIONAL)
-   ======================================== */
-
-/* Make arrows slightly transparent on touch devices */
 @media (hover: none) and (pointer: coarse) {
     .nav-arrow {
         opacity: 0.85;

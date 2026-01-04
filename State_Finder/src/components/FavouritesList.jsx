@@ -11,12 +11,12 @@ import '../styles/FavouritesList.css';
  */
 function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
 
-    // Drop zone configuration for drag and drop
+    // ADD Drop zone configuration for drag and drop
 
     const [{ isOver }, drop] = useDrop(() => ({
         accept: 'PROPERTY',
         drop: (item) => {
-            // It ensure the property exists before adding
+            
             if (item && item.property) {
                 onAddToFavorites(item.property);
             }

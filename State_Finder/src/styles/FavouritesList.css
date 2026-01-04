@@ -64,7 +64,7 @@
     text-decoration: none;
 }
 
-/* FIXED: Favorite item thumbnails with aspect ratio */
+/* Favorite item thumbnails with aspect ratio */
 .favorite-item img {
     width: 90px;
     height: 60px;

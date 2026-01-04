@@ -8,12 +8,11 @@
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
     transition: all 0.3s ease;
-    cursor: pointer; /* Changed from grab to pointer */
+    cursor: pointer;
     display: flex;
     flex-direction: column;
 }
 
-/* When dragging, show grab cursor */
 .property-card:active {
     cursor: grabbing;
 }
@@ -22,7 +21,7 @@
 .property-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    cursor: pointer; /* Ensure pointer on hover */
+    cursor: pointer;
 }
 
 /* Add subtle border on focus for accessibility */
@@ -31,7 +30,7 @@
     outline-offset: 2px;
 }
 
-/* FIXED: Property card images with aspect ratio */
+/* Property card images with aspect ratio */
 .property-image {
     position: relative;
     width: 100%;
@@ -126,7 +125,7 @@
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
-    cursor: pointer; /* Ensure button cursor */
+    cursor: pointer;
 }
 
 .btn-view:hover {
@@ -137,10 +136,10 @@
 
 
 .btn-favorite {
-    flex: 1.4; /* Increased from 1 to 1.4 to prevent cut-off */
+    flex: 1.4;
     background-color: #ff6b6b;
     color: white;
-    padding: 0.85rem 0.5rem; /* Adjusted padding */
+    padding: 0.85rem 0.5rem;
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -148,7 +147,7 @@
     cursor: pointer;
     font-size: 0.9rem;
     overflow: hidden;
-    min-width: 105px; /* Ensure minimum width for "♥ Favorite" */
+    min-width: 105px;
 }
 
 .btn-favorite:hover {
@@ -156,7 +155,6 @@
     transform: translateY(-2px);
 }
 
-/* Ensure buttons maintain their own hover effects */
 .property-card .btn-view:hover,
 .property-card .btn-favorite:hover {
     transform: translateY(-2px) scale(1.02);
@@ -171,7 +169,7 @@
         font-size: 1.5rem;
     }
 
-    /* FIXED: Mobile property cards */
+    /*  Mobile property cards */
     .property-image {
         aspect-ratio: 4 / 3;
     }

@@ -29,9 +29,7 @@ function PropertyCard({ property, onAddToFavorites }) {
         navigate(`/property/${property.id}`);
     };
 
-    /**
-     * Handle favorite button click
-     */
+    //Handle favorite button click
     const handleFavoriteClick = (e) => {
         e.stopPropagation();
         e.preventDefault();
