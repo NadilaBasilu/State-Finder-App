@@ -23,7 +23,7 @@ const mockProperties = [
         added: {
             month: 'October',
             day: 12,
-            year: 2022
+            year: 2025
         }
     }
 ]

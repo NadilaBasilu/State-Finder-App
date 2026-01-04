@@ -210,7 +210,7 @@ function PropertyDetails({ properties, onAddToFavorites }) {
                             borderLeft: '4px solid #667eea'
                         }}>
                             <p style={{ margin: 0, color: '#555', lineHeight: '1.6' }}>
-                                <strong style={{ color: '#667eea' }}>🗺️ Google Maps:</strong>
+                                <strong style={{ color: '#667eea' }}>Google Maps:</strong>
                                 <br />
                                 This property is located at <strong>{property.location}</strong> in the <strong>{property.postcode}</strong> area.
                                 {' '}
