@@ -56,7 +56,7 @@ function SearchForm({onSearch}) {
 
     return (
         <form onSubmit={handleSubmit} className="search-form">
-            <h2>🔍 Search Properties</h2>
+            <h2> Search Properties</h2>
 
             {/* Property Type - Full Width */}
             <div className="form-group full-width">
@@ -180,7 +180,7 @@ function SearchForm({onSearch}) {
             {/* Action Buttons */}
             <div className="form-actions">
                 <button type="submit" className="btn btn-primary">
-                    🔍 Search Properties
+                     Search Properties
                 </button>
                 <button type="button" onClick={handleReset} className="btn btn-secondary">
                     ↻ Reset
