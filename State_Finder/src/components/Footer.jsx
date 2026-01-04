@@ -16,7 +16,7 @@ function Footer() {
                         {/* Brand Section */}
                         <div className="footer-column footer-brand">
                             <h2 className="footer-logo">
-                                Property<span className="logo-highlight">Vision</span>
+                                Estate<span className="logo-highlight">Finder</span>
                             </h2>
                             <p className="footer-description">
                                 Your reliable guide to discovering the ideal property.
@@ -83,7 +83,7 @@ function Footer() {
                                 <li>
                                     <span className="contact-icon">✉️</span>
                                     <div className="contact-text">
-                                        <span>info@propertyfinder.com</span>
+                                        <span>info@statefinder.com</span>
                                     </div>
                                 </li>
                             </ul>
@@ -96,7 +96,7 @@ function Footer() {
             <div className="footer-bottom">
                 <div className="footer-container">
                     <div className="footer-bottom-content">
-                        <p>&copy; {currentYear} PropertyFinder. All rights reserved.</p>
+                        <p>&copy; {currentYear} StateFinder. All rights reserved.</p>
                         <div className="footer-legal">
                             <a href="/">Privacy Policy</a>
                             <span className="separator">•</span>
