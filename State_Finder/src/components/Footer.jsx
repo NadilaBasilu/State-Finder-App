@@ -83,7 +83,7 @@ function Footer() {
                                 <li>
                                     <span className="contact-icon">✉️</span>
                                     <div className="contact-text">
-                                        <span>info@statefinder.com</span>
+                                        <span>info@estatefinder.com</span>
                                     </div>
                                 </li>
                             </ul>
@@ -96,7 +96,7 @@ function Footer() {
             <div className="footer-bottom">
                 <div className="footer-container">
                     <div className="footer-bottom-content">
-                        <p>&copy; {currentYear} StateFinder. All rights reserved.</p>
+                        <p>&copy; {currentYear} EstateFinder. All rights reserved.</p>
                         <div className="footer-legal">
                             <a href="/">Privacy Policy</a>
                             <span className="separator">•</span>
