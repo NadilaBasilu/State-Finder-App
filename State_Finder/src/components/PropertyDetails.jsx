@@ -163,7 +163,7 @@ function PropertyDetails({ properties, onAddToFavorites }) {
                                 border: '2px solid #667eea'
                             }}>
                                 <strong style={{ fontSize: '1.1rem', color: '#667eea', display: 'block', marginBottom: '0.5rem' }}>
-                                    🏠 Property Type
+                                     Property Type
                                 </strong>
                                 <p style={{ fontSize: '1rem', color: '#333', margin: 0 }}>
                                     {property.bedrooms} bedroom {property.type}
@@ -178,7 +178,7 @@ function PropertyDetails({ properties, onAddToFavorites }) {
                                 border: '2px solid #667eea'
                             }}>
                                 <strong style={{ fontSize: '1.1rem', color: '#667eea', display: 'block', marginBottom: '0.5rem' }}>
-                                    💰 Price
+                                     Price
                                 </strong>
                                 <p style={{ fontSize: '1rem', color: '#333', margin: 0 }}>
                                     £{property.price.toLocaleString()}
@@ -193,7 +193,7 @@ function PropertyDetails({ properties, onAddToFavorites }) {
                                 border: '2px solid #667eea'
                             }}>
                                 <strong style={{ fontSize: '1.1rem', color: '#667eea', display: 'block', marginBottom: '0.5rem' }}>
-                                    📅 Date Added
+                                     Date Added
                                 </strong>
                                 <p style={{ fontSize: '1rem', color: '#333', margin: 0 }}>
                                     {property.added.month} {property.added.day}, {property.added.year}
