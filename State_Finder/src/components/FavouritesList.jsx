@@ -64,7 +64,7 @@ function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
             {/* Empty state - only show when there are NO favorites */}
             {favorites.length === 0 && (
                 <div className="empty-message">
-                    <p>🏠 Drag properties here to save them</p>
+                    <p>Drag properties here to save them</p>
                     <p style={{ fontSize: '0.9rem', color: '#999' }}>
                         or click the ♥ Favorite button
                     </p>
