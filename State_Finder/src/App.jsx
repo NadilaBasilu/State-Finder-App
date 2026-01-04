@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
@@ -10,6 +10,41 @@ import FavoritesList from './components/FavouritesList.jsx';
 import Footer from './components/Footer.jsx';
 import { searchProperties } from './utils/searchUtils.js';
 import './styles/App.css';
+
+/**
+ * Header Component with Hide on Scroll and Tagline
+ * Shows "Estate" in white and "Finder" in yellow
+ */
+function Header() {
+    const [prevScrollPos, setPrevScrollPos] = useState(0);
+    const [visible, setVisible] = useState(true);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollPos = window.pageYOffset;
+            const isScrollingUp = prevScrollPos > currentScrollPos;
+            const isAtTop = currentScrollPos < 50;
+
+            // Show header when scrolling up or at top
+            setVisible(isScrollingUp || isAtTop);
+            setPrevScrollPos(currentScrollPos);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [prevScrollPos]);
+
+    return (
+        <header className={`app-header ${visible ? 'header-visible' : 'header-hidden'}`}>
+            <div className="header-content">
+                <h1 className="header-title">
+                    Estate<span className="highlight-yellow">Finder</span>
+                </h1>
+                <p className="header-tagline">Find Your Dream Home</p>
+            </div>
+        </header>
+    );
+}
 
 /**
  * Main App Component
@@ -59,10 +94,8 @@ function App() {
         <DndProvider backend={HTML5Backend}>
             <BrowserRouter>
                 <div className="app">
-                    {/* Header */}
-                    <header>
-                        <h1>🏠 Property Vision</h1>
-                    </header>
+                    {/* Header with Hide on Scroll */}
+                    <Header />
 
                     <Routes>
                         {/* Main Search Page */}
