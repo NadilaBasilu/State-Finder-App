@@ -6,9 +6,10 @@ describe('App', () => {
     it('renders the app header', () => {
         render(<App />)
 
-        // Changed to match actual header text "🏠 Property Vision"
-        const headerElement = screen.getByRole('heading', { name: /Property Vision/i, level: 1 })
+        // Changed to match actual header text "EstateFinder"
+        const headerElement = screen.getByRole('heading', { level: 1 })
         expect(headerElement).toBeInTheDocument()
+        expect(headerElement.textContent).toMatch(/EstateFinder/i)
     })
 
     it('renders the search form', () => {
