@@ -8,7 +8,7 @@ import '../styles/PropertyCard.css';
 /**
  * PropertyCard Component
  * Displays individual property with drag and drop support
- * Click anywhere on card to view details
+
  */
 function PropertyCard({ property, onAddToFavorites }) {
     const navigate = useNavigate();
@@ -31,10 +31,9 @@ function PropertyCard({ property, onAddToFavorites }) {
 
     /**
      * Handle favorite button click
-     * Prevent event bubbling to card click
      */
     const handleFavoriteClick = (e) => {
-        e.stopPropagation(); // Prevent card click
+        e.stopPropagation();
         e.preventDefault();
         onAddToFavorites(property);
     };

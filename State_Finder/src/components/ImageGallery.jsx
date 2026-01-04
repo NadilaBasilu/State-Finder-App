@@ -3,7 +3,7 @@ import '../styles/ImageGallery.css';
 
 /**
  * ImageGallery Component with Navigation Arrows
- * Displays main image with previous/next controls and thumbnail gallery
+ * Displays main image with previous  thumbnail gallery
  */
 function ImageGallery({ images, selectedImage, setSelectedImage }) {
 
@@ -22,15 +22,13 @@ function ImageGallery({ images, selectedImage, setSelectedImage }) {
         setSelectedImage((prev) => (prev === 0 ? images.length - 1 : prev - 1));
     };
 
-    /**
-     * Navigate to next image
+    /*Navigate to next image
      */
     const handleNext = () => {
         setSelectedImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
     };
 
-    /**
-     * Handle keyboard navigation
+    /* Handle keyboard navigation
      */
     const handleKeyPress = (e) => {
         if (e.key === 'ArrowLeft') {

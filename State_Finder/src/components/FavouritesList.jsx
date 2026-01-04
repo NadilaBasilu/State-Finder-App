@@ -16,7 +16,7 @@ function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
     const [{ isOver }, drop] = useDrop(() => ({
         accept: 'PROPERTY',
         drop: (item) => {
-            // Ensure the property exists before adding
+            // It ensure the property exists before adding
             if (item && item.property) {
                 onAddToFavorites(item.property);
             }
@@ -61,7 +61,7 @@ function FavoritesList({ favorites, onAddToFavorites, onRemove, onClearAll }) {
                 </div>
             ))}
 
-            {/* Empty state - only show when there are NO favorites */}
+            {/* Empty Estate - only show when there are NO favorites */}
             {favorites.length === 0 && (
                 <div className="empty-message">
                     <p>Drag properties here to save them</p>
